@@ -1,0 +1,49 @@
+{
+  "name": "retext-ai",
+  "displayName": "ReText AI — IA para Escrita",
+  "version": "0.3.0",
+  "description": "Corrija, melhore e humanize seus textos com IA em português brasileiro",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "plasmo": "^0.90.5",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  },
+  "manifest": {
+    "name": "ReText AI — IA para Escrita",
+    "description": "Corrija, melhore e humanize seus textos com IA em português brasileiro",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Alt+R",
+          "mac": "Command+Shift+R"
+        },
+        "description": "Abrir o ReText AI"
+      }
+    }
+  }
+}
