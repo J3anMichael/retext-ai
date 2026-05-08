@@ -83,4 +83,4 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
-Feito com ❤️ por [Jean](https://github.com/jeanm)
+Feito por [Jean](https://github.com/J3anMichael)
